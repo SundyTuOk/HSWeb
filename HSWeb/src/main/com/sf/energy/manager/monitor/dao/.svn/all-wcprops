@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/119/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao
+END
+MeterInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/119/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/MeterInfoDao.java
+END
+AmStandByModelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/AmStandByModelDao.java
+END
+UseingEnergyWarningDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/UseingEnergyWarningDao.java
+END
+ArrangeEnergyHistoryDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/ArrangeEnergyHistoryDataDao.java
+END
+AmmeterDataMaintenanceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/AmmeterDataMaintenanceDao.java
+END
+EnergyMatchModelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/EnergyMatchModelDao.java
+END
+ArchAmStandByModelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/109/VES_HS/web/src/main/com/sf/energy/manager/monitor/dao/ArchAmStandByModelDao.java
+END

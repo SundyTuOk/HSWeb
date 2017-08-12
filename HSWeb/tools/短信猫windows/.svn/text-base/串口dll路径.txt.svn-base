@@ -1,0 +1,9 @@
+1、放在jdk里面的jre，外面的不放。
+
+2、comm.jar 或者 RXTXcomm.jar 放到jdk里面的jre下面的ext，并引入项目。
+
+3、xxx.dll放到jdk里面的jre下的bin。
+
+4、32位系统还要将javax.comm.properties，放入jdk里面的jre下的lib。
+
+5、smslib都要引入到项目中。

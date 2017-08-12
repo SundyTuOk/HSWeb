@@ -1,0 +1,124 @@
+package com.sf.energy.prepayment.model;
+
+public class WaterJieSuan
+{
+	Integer WATERJIESUAN_ID;
+	Integer WATERMETER_ID;
+	Float   THISZVALUE;
+	Float   LASTZVALUE;
+	String  THISTIME;
+	String  LASTTIME;
+	String  JIESUANTIME;
+	
+	Float   LASTREMAINMONEY;
+	Float   THISREMAINMONEY;
+	Float   THISUSEMONEY;
+	public Integer getWATERJIESUAN_ID()
+	{
+		return WATERJIESUAN_ID;
+	}
+	public void setWATERJIESUAN_ID(Integer wATERJIESUAN_ID)
+	{
+		WATERJIESUAN_ID = wATERJIESUAN_ID;
+	}
+	public Integer getWATERMETER_ID()
+	{
+		return WATERMETER_ID;
+	}
+	public void setWATERMETER_ID(Integer wATERMETER_ID)
+	{
+		WATERMETER_ID = wATERMETER_ID;
+	}
+	public Float getTHISZVALUE()
+	{
+		return THISZVALUE;
+	}
+	public void setTHISZVALUE(Float tHISZVALUE)
+	{
+		THISZVALUE = tHISZVALUE;
+	}
+	public Float getLASTZVALUE()
+	{
+		return LASTZVALUE;
+	}
+	public void setLASTZVALUE(Float lASTZVALUE)
+	{
+		LASTZVALUE = lASTZVALUE;
+	}
+	public String getTHISTIME()
+	{
+		return THISTIME;
+	}
+	public void setTHISTIME(String tHISTIME)
+	{
+		THISTIME = tHISTIME;
+	}
+	public String getLASTTIME()
+	{
+		return LASTTIME;
+	}
+	public void setLASTTIME(String lASTTIME)
+	{
+		LASTTIME = lASTTIME;
+	}
+	public String getJIESUANTIME()
+	{
+		return JIESUANTIME;
+	}
+	public void setJIESUANTIME(String jIESUANTIME)
+	{
+		JIESUANTIME = jIESUANTIME;
+	}
+	public Float getLASTREMAINMONEY()
+	{
+		return LASTREMAINMONEY;
+	}
+	public void setLASTREMAINMONEY(Float lASTREMAINMONEY)
+	{
+		LASTREMAINMONEY = lASTREMAINMONEY;
+	}
+	public Float getTHISREMAINMONEY()
+	{
+		return THISREMAINMONEY;
+	}
+	public void setTHISREMAINMONEY(Float tHISREMAINMONEY)
+	{
+		THISREMAINMONEY = tHISREMAINMONEY;
+	}
+	public Float getTHISUSEMONEY()
+	{
+		return THISUSEMONEY;
+	}
+	public void setTHISUSEMONEY(Float tHISUSEMONEY)
+	{
+		THISUSEMONEY = tHISUSEMONEY;
+	}
+	@Override
+	public String toString()
+	{
+		return "WaterJieSuan [WATERJIESUAN_ID=" + WATERJIESUAN_ID + ", WATERMETER_ID=" + WATERMETER_ID + ", THISZVALUE=" + THISZVALUE
+				+ ", LASTZVALUE=" + LASTZVALUE + ", THISTIME=" + THISTIME + ", LASTTIME=" + LASTTIME + ", JIESUANTIME=" + JIESUANTIME
+				+ ", LASTREMAINMONEY=" + LASTREMAINMONEY + ", THISREMAINMONEY=" + THISREMAINMONEY + ", THISUSEMONEY=" + THISUSEMONEY + "]";
+	}
+	public WaterJieSuan()
+	{
+		super();
+	}
+	public WaterJieSuan(Integer wATERJIESUAN_ID, Integer wATERMETER_ID, Float tHISZVALUE, Float lASTZVALUE, String tHISTIME, String lASTTIME,
+			String jIESUANTIME, Float lASTREMAINMONEY, Float tHISREMAINMONEY, Float tHISUSEMONEY)
+	{
+		super();
+		WATERJIESUAN_ID = wATERJIESUAN_ID;
+		WATERMETER_ID = wATERMETER_ID;
+		THISZVALUE = tHISZVALUE;
+		LASTZVALUE = lASTZVALUE;
+		THISTIME = tHISTIME;
+		LASTTIME = lASTTIME;
+		JIESUANTIME = jIESUANTIME;
+		LASTREMAINMONEY = lASTREMAINMONEY;
+		THISREMAINMONEY = tHISREMAINMONEY;
+		THISUSEMONEY = tHISUSEMONEY;
+	}
+	
+	
+}

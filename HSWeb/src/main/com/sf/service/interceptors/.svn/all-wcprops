@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/service/interceptors
+END
+EncodingLoggingInInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/service/interceptors/EncodingLoggingInInterceptor.java
+END
+EncodingLoggingOutInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/service/interceptors/EncodingLoggingOutInterceptor.java
+END

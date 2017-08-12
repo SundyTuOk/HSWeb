@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json
+END
+commons-lang.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/commons-lang.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/commons-logging-1.0.4.jar
+END
+commons-beanutils-1.8.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/commons-beanutils-1.8.3.jar
+END
+ezmorph-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/ezmorph-1.0.4.jar
+END
+commons-collections.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/commons-collections.jar
+END
+json-lib-2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/json/json-lib-2.3-jdk15.jar
+END

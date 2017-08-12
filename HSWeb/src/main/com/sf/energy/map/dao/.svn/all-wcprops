@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao
+END
+WaterMeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao/WaterMeterDao.java
+END
+ArchitrctureDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao/ArchitrctureDao.java
+END
+WriteXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao/WriteXML.java
+END
+MapDistributeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao/MapDistributeDao.java
+END
+AmMeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/map/dao/AmMeterDao.java
+END

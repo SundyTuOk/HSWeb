@@ -1,0 +1,233 @@
+package com.sf.energy.project.system.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.SQLException;
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+
+import com.sf.energy.manager.monitor.dao.ArchAmStandByModelDao;
+import com.sf.energy.manager.monitor.dao.MeterInfoDao;
+import com.sf.energy.project.equipment.dao.AmmeterDao;
+
+public class AmArchStandByModelServerlet extends HttpServlet
+{
+
+	DecimalFormat df1 = new DecimalFormat("#0.00");
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException
+	{
+		req.setCharacterEncoding("UTF-8");
+		resp.setCharacterEncoding("UTF-8");
+
+		try
+		{
+			findMethod(req, resp);
+		} catch (SQLException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParseException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException
+	{
+		doGet(req, resp);
+	}
+
+	private void findMethod(HttpServletRequest req, HttpServletResponse resp)
+			throws SQLException, IOException, ParseException
+	{
+		String method = req.getParameter("method");
+		////System.out.println("method:" + method);
+
+		if ("addModel".equals(method))
+			addModel(req, resp);
+
+		if ("getInfoByID".equals(method))
+			getInfoByID(req, resp);
+
+
+		if ("paginate".equals(method))
+			paginate(req, resp);
+
+		if ("getMOdelByID".equals(method))
+		{
+			getModelByID(req, resp);
+		}
+	}
+	/**
+	 * 获得model信息的控制器
+	 * @param req 请求
+	 * @param resp 应答
+	 * @throws IOException
+	 * @throws SQLException
+	 */
+	private void getModelByID(HttpServletRequest req, HttpServletResponse resp)
+			throws IOException, SQLException
+	{
+		ArchAmStandByModelDao model = new ArchAmStandByModelDao();
+
+		String meterID = req.getParameter("meterID");
+		ArchAmStandByModelDao modelByID=null;
+		modelByID = model.getModelInfoByID(meterID);
+		JSONArray json = new JSONArray();
+		AmmeterDao ammeterDao=new AmmeterDao();
+		String meterName=ammeterDao.queryNameByID(Integer.parseInt(meterID));
+		JSONObject jo = new JSONObject();
+		if(modelByID!=null){
+
+			jo.put("maxValue", modelByID.getUpperLimit());
+			jo.put("minValue", modelByID.getLowLimit());
+			jo.put("startTime", modelByID.getStartTime());
+			jo.put("endtime", modelByID.getEndTime());
+			jo.put("isCheck", modelByID.getIsCheck());
+			jo.put("isTomorrow", modelByID.getIsTomorrow());
+			jo.put("isVoice", modelByID.getIsVoice());
+		}
+		jo.put("meterName",meterName);
+		json.add(jo);
+		resp.setContentType("application/x-json");
+		//System.out.println(json.toString());
+		PrintWriter out = resp.getWriter();
+		out.println(json.toString());
+		out.flush();
+		out.close();
+	}
+
+	/**
+	 * 获得页面展示信息的控制器
+	 * @param request
+	 * @param response
+	 * @throws IOException
+	 * @throws SQLException
+	 */
+	private void paginate(HttpServletRequest request,
+			HttpServletResponse response) throws IOException, SQLException
+	{
+		MeterInfoDao info = new MeterInfoDao();
+		int area_id=Integer.parseInt(request.getParameter("areaid"));
+		int arch_id=Integer.parseInt(request.getParameter("archid"));
+		Integer thePageCount = Integer.parseInt(request
+				.getParameter("ArchStandByModelPageCount"));
+		Integer thePageIndex = Integer.parseInt(request
+				.getParameter("ArchStandByModelPageIndex"));
+		String tableName = request.getParameter("tableName");
+		String order = request.getParameter("order");
+		List<MeterInfoDao> list = info.archAmStandbypaginate(thePageCount, thePageIndex,area_id,arch_id,tableName,order);
+
+		JSONArray json = new JSONArray();
+		JSONObject jo = new JSONObject();
+		jo.put("totalCount", info.getTotal());
+		json.add(jo);
+
+		for (MeterInfoDao n : list)
+		{
+			jo = new JSONObject();
+			jo.put("Ammeter_id", n.getAmmerter_ID());
+			jo.put("Ammeter_name", n.getAmmerter_name());
+			jo.put("Partment", n.getPartment());
+			jo.put("isCheck", n.getIsCheck());
+			json.add(jo);
+		}
+
+		////System.out.println(json.toString());
+		response.setContentType("application/x-json");
+		request.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8");
+		PrintWriter out = response.getWriter();
+		out.println(json.toString());
+		out.flush();
+		out.close();
+	}
+
+
+	private void getInfoByID(HttpServletRequest req, HttpServletResponse resp)
+			throws SQLException, IOException
+	{
+		MeterInfoDao info = new MeterInfoDao();
+
+		String AreaID = req.getParameter("AreaID").trim();
+		String ArchID = req.getParameter("ArchID").trim();
+		String GroupID = req.getParameter("GroupID").trim();
+		int standByModelPageCount = Integer.parseInt(req
+				.getParameter("ArchStandByModelPageCount"));
+		int standByModelPageIndex = Integer.parseInt(req
+				.getParameter("ArchStandByModelPageIndex"));
+
+		String tableName = req.getParameter("tableName");
+		String order = req.getParameter("order");
+
+		ArrayList<MeterInfoDao> list = new ArrayList<MeterInfoDao>();
+		list = info.getMeterInfo(AreaID, GroupID, ArchID,
+				standByModelPageCount, standByModelPageIndex,"STANDBYCHECK",tableName,order);
+		JSONArray json = new JSONArray();
+		JSONObject jo = new JSONObject();
+
+		jo.put("totalCount", info.getTotal());
+		json.add(jo);
+
+		for (MeterInfoDao n : list)
+		{
+			jo = new JSONObject();
+
+			jo.put("Ammeter_id", n.getAmmerter_ID());
+			jo.put("Ammeter_name", n.getAmmerter_name());
+			jo.put("Partment", n.getPartment());
+			jo.put("isCheck", n.getIsCheck());
+
+			json.add(jo);
+		}
+		resp.setContentType("application/x-json");
+		////System.out.println(json.toString());
+		PrintWriter out = resp.getWriter();
+		out.println(json.toString());
+		out.flush();
+		out.close();
+	}
+
+	private void addModel(HttpServletRequest req, HttpServletResponse resp)
+			throws SQLException, IOException
+	{
+		ArchAmStandByModelDao model = new ArchAmStandByModelDao();
+
+		model.setAmmeterID(req.getParameter("AmmeterID"));
+		model.setEndTime(req.getParameter("endTime"));
+		model.setStartTime(req.getParameter("startTime"));
+		model.setLowLimit(req.getParameter("lowLimit"));
+		model.setUpperLimit(req.getParameter("upperLimit"));
+		model.setIsTomorrow(Integer.parseInt(req.getParameter("isTomorrow")));
+		model.setIsVoice(Integer.parseInt(req.getParameter("isVoice")));
+		model.setIsCheck(req.getParameter("isVoice"));
+
+		String resultInfo = null;
+		if (model.addModel())
+			resultInfo = "成功";
+		else
+			resultInfo = "失败";
+		PrintWriter out = resp.getWriter();
+		out.println(resultInfo);
+		out.flush();
+		out.close();
+	}
+
+}

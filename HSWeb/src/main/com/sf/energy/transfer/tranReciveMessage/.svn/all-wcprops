@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage
+END
+SerGataSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/SerGataSend.java
+END
+TranSerClientHandl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/TranSerClientHandl.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/package.html
+END
+TranGataData.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/TranGataData.java
+END
+MissDate.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/MissDate.java
+END
+AutoUp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/AutoUp.java
+END
+AutoData.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/AutoData.java
+END
+autoReadDate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/autoReadDate.java
+END
+SendCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/SendCommand.java
+END
+Alarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tranReciveMessage/Alarm.java
+END

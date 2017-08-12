@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Projects/!svn/ver/456/VES_HS/web/src/main/com/sf/energy/project/equipment/dao
+END
+WatermeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/WatermeterDao.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/package.html
+END
+GatherToDataSiteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/GatherToDataSiteDao.java
+END
+GatherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/GatherDao.java
+END
+AmmeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/456/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/AmmeterDao.java
+END
+PDTempWetDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/PDTempWetDao.java
+END
+FTAmmeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/FTAmmeterDao.java
+END
+LightDeviceCtlDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/LightDeviceCtlDao.java
+END
+TempDevDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/dao/TempDevDao.java
+END

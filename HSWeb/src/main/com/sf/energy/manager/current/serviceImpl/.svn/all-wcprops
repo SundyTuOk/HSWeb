@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/457/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl
+END
+GetParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/GetParameters.java
+END
+SendingLampController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingLampController.java
+END
+SendingMeterCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingMeterCode.java
+END
+SendingReadEditionCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingReadEditionCode.java
+END
+SendingCheckTimeCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Projects/!svn/ver/457/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingCheckTimeCode.java
+END
+SendingHistoryCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingHistoryCode.java
+END
+SendingImmediateCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/SendingImmediateCode.java
+END
+CleanGather.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/manager/current/serviceImpl/CleanGather.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http
+END
+HttpResultType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/HttpResultType.java
+END
+HttpClientConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/HttpClientConnectionManager.java
+END
+TrustAnyTrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/TrustAnyTrustManager.java
+END
+HttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/HttpResponse.java
+END
+HttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/HttpRequest.java
+END
+MySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/MySSLSocketFactory.java
+END
+HttpConnect.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/utils/http/HttpConnect.java
+END

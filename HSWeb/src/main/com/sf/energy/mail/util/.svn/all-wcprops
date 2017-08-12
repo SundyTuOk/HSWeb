@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util
+END
+MailSenderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/MailSenderFactory.java
+END
+SimpleMailSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/SimpleMailSender.java
+END
+MailAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/MailAuthenticator.java
+END
+MailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/MailDao.java
+END
+SimpleMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/SimpleMail.java
+END
+ReciveOneMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/mail/util/ReciveOneMail.java
+END

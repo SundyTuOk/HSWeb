@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/transfer/db
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/transfer/db/package.html
+END
+SenderWithOracleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/transfer/db/SenderWithOracleTest.java
+END
+ReceiverWithOracleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/transfer/db/ReceiverWithOracleTest.java
+END

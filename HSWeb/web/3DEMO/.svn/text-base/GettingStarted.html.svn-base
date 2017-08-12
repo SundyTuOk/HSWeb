@@ -1,0 +1,19 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>SuperMap iClient 6R for Realspace GettingStarted</title>
+
+<!--引用 SuperMap.Include.js，实现将 SuperMap.Include.js 中的库文件在该 html 中引用-->
+<script type="text/javascript" src="Scripts/SuperMap.Include.js"></script>
+
+<!--引用 GettingStarted.js，系统具体功能在该脚本中实现-->
+<script type="text/javascript" src="Scripts/GettingStarted.js"></script></head>
+
+<body onload="onPageLoad()">
+<!--场景控件-->
+ <div id="sceneControlDiv" style="position:relative; margin: 0; padding: 0; border: 1px solid black; z-index:1; 
+       left: 0%; width: 100%; top: 0%; height: 95%; visibility: visible;background-image: images/logo.png;">
+</div>
+</body>
+
+</html>

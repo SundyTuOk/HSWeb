@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<configuration>
+	<database>
+		<dbClassName>oracle.jdbc.driver.OracleDriver</dbClassName>
+		<dbUrl>jdbc:oracle:thin:@192.168.9.163:1521:orcl</dbUrl>
+		<dbUser>ls</dbUser>
+		<dbPassWord>ky</dbPassWord>
+	</database>
+	<server>
+		<serverIP>192.168.9.163</serverIP>
+		<serverPort>5005</serverPort>
+		<transferName>Server10</transferName>
+	</server>
+	<transfer>
+		<transferIP>192.168.9.163</transferIP>
+		<transferPort>10000</transferPort>
+	</transfer>
+</configuration>

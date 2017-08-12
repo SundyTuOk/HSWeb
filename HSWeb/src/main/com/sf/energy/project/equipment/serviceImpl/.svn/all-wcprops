@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/serviceImpl
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/serviceImpl/package.html
+END
+GatherServiceDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/serviceImpl/GatherServiceDaoImpl.java
+END
+AmmeterFiliationImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/serviceImpl/AmmeterFiliationImpl.java
+END
+AmmeterSearchImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/serviceImpl/AmmeterSearchImpl.java
+END

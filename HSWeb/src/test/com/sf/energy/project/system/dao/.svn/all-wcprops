@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao
+END
+DictionaryDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/DictionaryDaoTest.java
+END
+DictionaryValueDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/DictionaryValueDaoTest.java
+END
+ModuleDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/ModuleDaoTest.java
+END
+AreaDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/AreaDaoTest.java
+END
+AmmeterDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/AmmeterDaoTest.java
+END
+PartmentDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/system/dao/PartmentDaoTest.java
+END

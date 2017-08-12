@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao
+END
+DataManagerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/DataManagerDao.java
+END
+EnReportDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/EnReportDataDao.java
+END
+EnReportClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/EnReportClient.java
+END
+EnReportDataHisDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/EnReportDataHisDao.java
+END
+ArcSampleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/ArcSampleDao.java
+END
+EnReportDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/EnReportDao.java
+END
+SystemInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/dao/SystemInfoDao.java
+END

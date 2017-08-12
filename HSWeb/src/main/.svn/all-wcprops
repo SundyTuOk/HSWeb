@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/Projects/!svn/ver/509/VES_HS/web/src/main
+END
+msg.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/msg.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/log4j.properties
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/service.xml
+END
+weixin.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/weixin.properties
+END

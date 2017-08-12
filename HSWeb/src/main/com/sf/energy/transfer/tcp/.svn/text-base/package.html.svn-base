@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+     <p>名称：中转站和数据网关的会话包
+     <p>描述：将各个数据网关的信息存储起来
+     <p>模块：数据中转站->通信
+     <p>版本：v1.0
+     <br>
+</body>
+</html>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/project/equipment/model
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/package.html
+END
+AmmeterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/project/equipment/model/AmmeterModel.java
+END
+Gather.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/Gather.java
+END
+PDTempWetModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/PDTempWetModel.java
+END
+FTAmmeterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/FTAmmeterModel.java
+END
+LightDeviceCtlModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/LightDeviceCtlModel.java
+END
+TempDevModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/TempDevModel.java
+END
+WatermeterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/project/equipment/model/WatermeterModel.java
+END
+GatherToDataSiteModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/model/GatherToDataSiteModel.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db
+END
+ReceiverWithDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db/ReceiverWithDatabase.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db/package.html
+END
+SenderWithOracle.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db/SenderWithOracle.java
+END
+SenderWithDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db/SenderWithDatabase.java
+END
+ReceiverWithOracle.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/db/ReceiverWithOracle.java
+END

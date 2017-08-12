@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao
+END
+ExtremeValueDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/ExtremeValueDao.java
+END
+BaoJingInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/BaoJingInfoDao.java
+END
+BYQTemLineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/BYQTemLineDao.java
+END
+OverLimitDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/OverLimitDao.java
+END
+AmMeterPDDatasDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/AmMeterPDDatasDao.java
+END
+PDLoseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/PDLoseDao.java
+END
+LoseLineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/LoseLineDao.java
+END
+MuBarDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/MuBarDao.java
+END
+AmMeterPDDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/AmMeterPDDataDao.java
+END
+MuLineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/MuLineDao.java
+END
+EquipmentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/powernet/dao/EquipmentDao.java
+END

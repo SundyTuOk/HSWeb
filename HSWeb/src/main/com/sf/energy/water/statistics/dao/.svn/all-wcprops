@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/83/VES_HS/web/src/main/com/sf/energy/water/statistics/dao
+END
+WaterLoadTrendImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterLoadTrendImpl.java
+END
+WaterLoadTrendHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterLoadTrendHelper.java
+END
+WaterReportHelperImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/58/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterReportHelperImpl.java
+END
+WaterReportHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterReportHelper.java
+END
+WaterDetailHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterDetailHelper.java
+END
+WaterDetailHelperImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/83/VES_HS/web/src/main/com/sf/energy/water/statistics/dao/WaterDetailHelperImpl.java
+END

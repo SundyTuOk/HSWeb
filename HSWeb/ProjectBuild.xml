@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sf" basedir="." default="deployWar">
+
+	<!-- 路径分隔符号要适用于Unix,统一用“/” -->
+	<property name="classpath_lib" value="${basedir}/lib" />
+	<property name="sources" value="${basedir}/src" />
+	<property name="build" value="build/destination/webapp"></property>
+	<property name="src" value="src/main"></property>
+	<property name="tomcat" value="C:/tomcat7"></property>
+	<property name="jdk1.7" value="C:\Program Files (x86)\Java\jdk1.7.0_75\bin\javac"></property>
+	
+	<path id="classpath">
+		<!--添加lib 中的jar 包到软件中 -->
+		<fileset dir="${classpath_lib}">
+			<include name="**/*.jar" />
+		</fileset>
+		<!--添加lib 之外的包 -->
+		<fileset dir="${tomcat}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!--1、删除之前创建的目录和内容-->
+	<target name="deletefile" description="删除之前创建的文件夹">
+		<echo message="1.删除编译之前创建的目录"/>
+		<delete dir="build"></delete>
+		<delete dir="${tomcat}/bin/configuration"></delete>
+		<delete dir="${tomcat}/webapps/web"></delete>
+		<delete dir="${tomcat}/webapps/web.war"></delete>
+	</target>
+
+	<!--2、创建依赖文件夹-->
+	<target name="init" depends="deletefile" description="创建依赖文件夹">
+		<echo message="2.创建依赖文件夹"/>
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/WEB-INF" />
+		<mkdir dir="${build}/WEB-INF/classes" />
+		<mkdir dir="${build}/WEB-INF/lib" />
+	</target>
+	
+	<!--3、复制项目中的文件和jar包到新目录下-->
+	<target name="copysource" depends="init" description="复制项目中的文件和jar包到新目录下">
+		<echo message="3.复制项目中的文件和jar包到新目录下"/>
+		
+		<!-- 复制所有web文件夹下的文件 -->
+		<copy todir="${build}">
+			<fileset dir="${basedir}/web">
+				<include name="WEB-INF/**" />
+				<!-- 所有文件 -->
+				<include name="**" />
+			</fileset>
+		</copy>
+		
+		
+		<!--复制configuration下的xml文件-->
+		<copy todir="${tomcat}/bin/configuration">
+			<fileset dir="${basedir}/configuration">
+				<include name="*.xml" />
+			</fileset>
+		</copy>
+		
+		
+		<!-- 拷贝所有jar包到web\WEB-INF\lib中 -->
+		<copy todir="${build}/WEB-INF/lib">
+			<!-- 需要什么jar包就拷贝那个文件夹的的jar包 -->
+			
+			<fileset dir="${basedir}/lib/apache-configuration">
+					<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/CheckCode">
+					<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/cxf">
+					<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/FileUpload">
+					<include name="*.jar"></include>
+			</fileset>
+			<fileset dir="${basedir}/lib/gson">
+					<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/JasperReport">
+					<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/jdbc">
+				<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/JExcel">
+				<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/json">
+				<include name="*.jar"></include>
+			</fileset>
+			
+			<fileset dir="${basedir}/lib/sms">
+				<include name="*.jar"></include>
+			</fileset>
+			
+			
+			
+		</copy>
+	</target>
+
+	<!--4、编译java类-->
+	<target name="complie" depends="copysource" description="编译java类" >
+		<echo message="4.编译java类"/>
+		<!--添加源文件内容和编码utf-8 因为默是系统的本地时间 -->
+		<javac nowarn="on"  destdir="${build}/WEB-INF/classes" encoding="utf-8" classpathref="classpath" includeAntRuntime="false" executable="${jdk1.7}" source="1.7" fork="true" >
+			<classpath refid="classpath" />
+			<compilerarg line="-encoding UTF-8 "/>
+			<compilerarg value="-Xlint:unchecked"/>
+			<compilerarg value="-Xlint:deprecation"/>
+			
+			<!--指定要编译的java文件-->
+			<src path="${src}"/>
+			<!--
+			<src path="${src}/com/sf/energy/classroomlight/dao"/>
+			<src path="${src}/com/sf/energy/classroomlight/model"/>
+			<src path="${src}/com/sf/energy/classroomlight/service"/>
+			<src path="${src}/com/sf/energy/classroomlight/servlet"/>	
+			<src path="${src}/com/sf/energy/expert/analysis/unitArea"/>
+			<src path="${src}/com/sf/energy/expert/count"/>
+			<src path="${src}/com/sf/energy/expert/dao"/>
+			<src path="${src}/com/sf/energy/expert/forecast"/>
+			<src path="${src}/com/sf/energy/expert/manual"/>
+			<src path="${src}/com/sf/energy/expert/model"/>
+			<src path="${src}/com/sf/energy/expert/monitor"/>
+			<src path="${src}/com/sf/energy/expert/servlet"/>
+			<src path="${src}/com/sf/energy/expert/todaysave"/>
+			<src path="${src}/com/sf/energy/light/dao"/>
+			<src path="${src}/com/sf/energy/light/model"/>
+			<src path="${src}/com/sf/energy/light/service"/>
+			<src path="${src}/com/sf/energy/light/serviceImpl"/>
+			<src path="${src}/com/sf/energy/light/servlet"/>
+			<src path="${src}/com/sf/energy/login"/>
+			<src path="${src}/com/sf/energy/manager/current/model"/>
+			<src path="${src}/com/sf/energy/manager/current/service"/>
+			<src path="${src}/com/sf/energy/manager/current/serviceImpl"/>
+			<src path="${src}/com/sf/energy/manager/current/servlet"/>
+			<src path="${src}/com/sf/energy/manager/monitor/dao"/>
+			<src path="${src}/com/sf/energy/map/dao"/>
+			<src path="${src}/com/sf/energy/map/daoImp"/>
+			<src path="${src}/com/sf/energy/map/model"/>
+			<src path="${src}/com/sf/energy/map/servlet"/>
+			<src path="${src}/com/sf/energy/powernet/dao"/>
+			<src path="${src}/com/sf/energy/powernet/model"/>
+			<src path="${src}/com/sf/energy/powernet/service"/>
+			<src path="${src}/com/sf/energy/powernet/servlet"/>
+			<src path="${src}/com/sf/energy/prepayment/dao"/>
+			<src path="${src}/com/sf/energy/prepayment/model"/>
+			<src path="${src}/com/sf/energy/prepayment/service"/>
+			<src path="${src}/com/sf/energy/prepayment/serviceImpl"/>
+			<src path="${src}/com/sf/energy/prepayment/servlet"/>
+			<src path="${src}/com/sf/energy/project/display/dao"/>
+			<src path="${src}/com/sf/energy/project/display/model"/>
+			<src path="${src}/com/sf/energy/project/display/servlet"/>
+			<src path="${src}/com/sf/energy/project/equipment/dao"/>
+			<src path="${src}/com/sf/energy/project/equipment/model"/>
+			<src path="${src}/com/sf/energy/project/equipment/service"/>
+			<src path="${src}/com/sf/energy/project/equipment/serviceImpl"/>
+			<src path="${src}/com/sf/energy/project/equipment/servlet"/>
+			<src path="${src}/com/sf/energy/project/PDRoom/dao"/>
+			<src path="${src}/com/sf/energy/project/PDRoom/model"/>
+			<src path="${src}/com/sf/energy/project/PDRoom/servlet"/>
+			<src path="${src}/com/sf/energy/project/right/dao"/>
+			<src path="${src}/com/sf/energy/project/right/model"/>
+			<src path="${src}/com/sf/energy/project/right/service"/>
+			<src path="${src}/com/sf/energy/project/right/serviceImpl"/>
+			<src path="${src}/com/sf/energy/project/right/servlet"/>
+			<src path="${src}/com/sf/energy/project/run/dao"/>
+			<src path="${src}/com/sf/energy/project/run/model"/>
+			<src path="${src}/com/sf/energy/project/run/servlet"/>
+			<src path="${src}/com/sf/energy/project/system/dao"/>
+			<src path="${src}/com/sf/energy/project/system/maintenance"/>
+			<src path="${src}/com/sf/energy/project/system/model"/>
+			<src path="${src}/com/sf/energy/project/system/service/dao"/>
+			<src path="${src}/com/sf/energy/project/system/service/daoImpl"/>
+			<src path="${src}/com/sf/energy/project/system/servlet"/>
+			<src path="${src}/com/sf/energy/report/dao"/>
+			<src path="${src}/com/sf/energy/report/model"/>
+			<src path="${src}/com/sf/energy/report/servlet"/>
+			<src path="${src}/com/sf/energy/ReportUtil/servlet"/>
+			<src path="${src}/com/sf/energy/sms/dao"/>
+			<src path="${src}/com/sf/energy/sms/model"/>
+			<src path="${src}/com/sf/energy/sms/service"/>
+			<src path="${src}/com/sf/energy/sms/servlet"/>
+			<src path="${src}/com/sf/energy/statistics/dao"/>
+			<src path="${src}/com/sf/energy/statistics/model"/>
+			<src path="${src}/com/sf/energy/statistics/servlet"/>
+			<src path="${src}/com/sf/energy/util"/>
+			<src path="${src}/com/sf/energy/water/manager/current/dao"/>
+			<src path="${src}/com/sf/energy/water/manager/current/model"/>
+			<src path="${src}/com/sf/energy/water/manager/current/service"/>
+			<src path="${src}/com/sf/energy/water/manager/current/serviceImpl"/>
+			<src path="${src}/com/sf/energy/water/manager/current/servlet"/>
+			<src path="${src}/com/sf/energy/water/statistics/dao"/>
+			<src path="${src}/com/sf/energy/water/statistics/model"/>
+			<src path="${src}/com/sf/energy/water/statistics/servlet"/>
+			<src path="${src}/com/sf/energy/waternet/dao"/>
+			<src path="${src}/com/sf/energy/waternet/servlet"/>
+			-->
+		</javac>
+	</target>
+
+
+	<!--5、生成war包结构 -->
+	<target name="makewar" depends="complie" description="生成war包结构">
+		<echo message="5.生成war包结构 "/>
+		<war warfile="${build}/sfsvn.war" webxml="${build}/WEB-INF/web.xml">
+			<lib dir="${build}/WEB-INF/lib">
+				<include name="**" />
+			</lib>
+			<classes dir="${build}/WEB-INF/classes" />
+			<fileset dir="${build}" />
+		</war>
+	</target>
+
+	<!--6、布署到TOMCAT服务器 -->
+	<target name="deployWar" depends="makewar" description="布署到TOMCAT服务器">
+		<echo message="6.布署到TOMCAT服务器" />
+		<copy file="${build}/sfsvn.war" todir="${tomcat}/webapps">
+		</copy>
+	</target>
+	
+</project>  

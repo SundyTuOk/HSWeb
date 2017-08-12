@@ -1,0 +1,6 @@
+#Update 'serverport' value
+#Wed Apr 02 10:01:42 CST 2014
+tranclientip=127.0.0.1
+tranclientport=8002
+serverport=8002
+transerverport=8001

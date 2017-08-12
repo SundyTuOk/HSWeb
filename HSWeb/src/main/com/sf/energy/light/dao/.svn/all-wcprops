@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao
+END
+SLPlanDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLPlanDao.java
+END
+SLControlDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLControlDao.java
+END
+SLOnOffDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLOnOffDao.java
+END
+SLAmContrastDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLAmContrastDao.java
+END
+SLAlarmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLAlarmDao.java
+END
+SLControlLineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLControlLineDao.java
+END
+SLMonitorReply.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLMonitorReply.java
+END
+SlHistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SlHistoryDao.java
+END
+SLLineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLLineDao.java
+END
+SLMonitorSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLMonitorSocket.java
+END
+ParseLightXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/ParseLightXml.java
+END
+SLMonitorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SLMonitorDao.java
+END
+SlLampDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/light/dao/SlLampDao.java
+END

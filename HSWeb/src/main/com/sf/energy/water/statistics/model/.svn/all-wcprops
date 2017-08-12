@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/model
+END
+WaterReportModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/model/WaterReportModel.java
+END
+WaterMeterMataData.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/model/WaterMeterMataData.java
+END
+WaterLoadTrendData.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/model/WaterLoadTrendData.java
+END
+WaterDetailData.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/statistics/model/WaterDetailData.java
+END

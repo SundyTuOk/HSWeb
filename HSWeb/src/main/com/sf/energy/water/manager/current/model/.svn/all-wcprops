@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/58/VES_HS/web/src/main/com/sf/energy/water/manager/current/model
+END
+WmMaintence.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/WmMaintence.java
+END
+XMLCoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/XMLCoder.java
+END
+WaterQuotaManagerModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/WaterQuotaManagerModel.java
+END
+DeptFinalAccountsWaterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/DeptFinalAccountsWaterModel.java
+END
+DeptBillSetWaterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/DeptBillSetWaterModel.java
+END
+PumpWarningModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/PumpWarningModel.java
+END
+CurrentManagerModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/CurrentManagerModel.java
+END
+BldFinalAccountsWaterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/BldFinalAccountsWaterModel.java
+END
+WaterFixedFinancialSettlementModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/WaterFixedFinancialSettlementModel.java
+END
+BldBillSetWaterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/BldBillSetWaterModel.java
+END
+WaterStandByModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Projects/!svn/ver/58/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/WaterStandByModel.java
+END
+MeterInfoModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/58/VES_HS/web/src/main/com/sf/energy/water/manager/current/model/MeterInfoModel.java
+END

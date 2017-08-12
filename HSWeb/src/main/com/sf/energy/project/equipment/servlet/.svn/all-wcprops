@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/456/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/package.html
+END
+DataGateManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/DataGateManage.java
+END
+WatermeterManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/WatermeterManage.java
+END
+TempDevManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/TempDevManage.java
+END
+LightDeviceCtlManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/LightDeviceCtlManage.java
+END
+FTAmmeterManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/FTAmmeterManage.java
+END
+PDTempWetManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/PDTempWetManage.java
+END
+AmmeterManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/456/VES_HS/web/src/main/com/sf/energy/project/equipment/servlet/AmmeterManage.java
+END

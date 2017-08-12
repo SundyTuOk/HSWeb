@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/mina
+END
+mina-core-2.0.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/mina/mina-core-2.0.7.jar
+END
+slf4j-api-1.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/mina/slf4j-api-1.5.2.jar
+END
+log4j-1.2.14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/mina/log4j-1.2.14.jar
+END
+slf4j-log4j12-1.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/mina/slf4j-log4j12-1.5.2.jar
+END

@@ -1,0 +1,34 @@
+10
+
+dir
+517
+http://192.168.7.163:8000/svn/Projects/VES_HS/web/src/main/com/sf/energy/project/system/service
+http://192.168.7.163:8000/svn/Projects
+
+
+
+2017-04-13T07:30:32.511813Z
+153
+lj
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3b450917-9947-814e-add7-5954e3b24165
+
+dao
+dir
+
+daoImpl
+dir
+

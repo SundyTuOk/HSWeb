@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Projects/!svn/ver/489/VES_HS/web/src/main/com/sf/energy/prepayment/dao
+END
+PowerRankingsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/PowerRankingsDao.java
+END
+ArchAnalysis_ArchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ArchAnalysis_ArchDao.java
+END
+YuebuExceptionSao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/YuebuExceptionSao.java
+END
+ReadWatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ReadWatter.java
+END
+ExchangeMeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ExchangeMeterDao.java
+END
+APWaterAddMoneyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/141/VES_HS/web/src/main/com/sf/energy/prepayment/dao/APWaterAddMoneyDao.java
+END
+VolumeSetDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/VolumeSetDao.java
+END
+PowerOffStatisticsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/PowerOffStatisticsDao.java
+END
+ArchAnalysis_DayDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ArchAnalysis_DayDao.java
+END
+ExceptionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ExceptionDao.java
+END
+BaoJingInfoForPreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/BaoJingInfoForPreDao.java
+END
+YuGouDetailsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/YuGouDetailsDao.java
+END
+AutoUpDataSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/AutoUpDataSaver.java
+END
+CMMsendCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/220/VES_HS/web/src/main/com/sf/energy/prepayment/dao/CMMsendCommand.java
+END
+ArchAnalysis_MonthDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ArchAnalysis_MonthDao.java
+END
+ApZQInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ApZQInfoDao.java
+END
+PullSwitchManagerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/69/VES_HS/web/src/main/com/sf/energy/prepayment/dao/PullSwitchManagerDao.java
+END
+ApCardDZDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ApCardDZDao.java
+END
+CMAreaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/CMAreaDao.java
+END
+BatchOprDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/BatchOprDao.java
+END
+APTuiDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/APTuiDao.java
+END
+BatchOprOtherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/BatchOprOtherDao.java
+END
+APXiaohuDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/APXiaohuDao.java
+END
+SaleDetailsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/489/VES_HS/web/src/main/com/sf/energy/prepayment/dao/SaleDetailsDao.java
+END
+CMMeterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/131/VES_HS/web/src/main/com/sf/energy/prepayment/dao/CMMeterDao.java
+END
+ApKaiHuInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/ApKaiHuInfoDao.java
+END
+AmMeterTuiFangDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/AmMeterTuiFangDao.java
+END
+PrepaymenReportHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/327/VES_HS/web/src/main/com/sf/energy/prepayment/dao/PrepaymenReportHelper.java
+END
+CMArchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/prepayment/dao/CMArchDao.java
+END

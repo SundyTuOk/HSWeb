@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Projects/!svn/ver/444/VES_HS/web/src/main/com/sf/energy/weixin/methods
+END
+refundQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/methods/refundQuery.java
+END
+downloadbill.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/methods/downloadbill.java
+END
+OrderQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/444/VES_HS/web/src/main/com/sf/energy/weixin/methods/OrderQuery.java
+END
+refund.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/methods/refund.java
+END
+OrderQueryByTradeNo.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Projects/!svn/ver/444/VES_HS/web/src/main/com/sf/energy/weixin/methods/OrderQueryByTradeNo.java
+END
+resendOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/methods/resendOrder.java
+END
+resendOrderByBill.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/weixin/methods/resendOrderByBill.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms
+END
+commons-net-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/commons-net-3.0.1.jar
+END
+comm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/comm.jar
+END
+jsmpp-2.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/jsmpp-2.1.0.jar
+END
+smslib-3.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/smslib-3.5.4.jar
+END
+slf4j-api-1.6.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/slf4j-api-1.6.3.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/log4j-1.2.16.jar
+END
+slf4j-log4j12-1.6.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Projects/!svn/ver/3/VES_HS/web/lib/sms/slf4j-log4j12-1.6.3.jar
+END

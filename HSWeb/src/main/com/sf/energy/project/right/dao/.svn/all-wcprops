@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao
+END
+PowerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/PowerDao.java
+END
+UsersRolesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/UsersRolesDao.java
+END
+UsersAreaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/UsersAreaDao.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/package.html
+END
+RolesPowerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/RolesPowerDao.java
+END
+UsersDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/UsersDao.java
+END
+UsersPartmentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/UsersPartmentDao.java
+END
+UsersArchitectureDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/UsersArchitectureDao.java
+END
+ModuleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/ModuleDao.java
+END
+RolesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/right/dao/RolesDao.java
+END

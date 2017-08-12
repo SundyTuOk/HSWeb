@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Projects/!svn/ver/153/VES_HS/web/src/main/com/sf/energy/project/system/service/dao
+END
+ArchitectureServiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/ArchitectureServiceDao.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/package.html
+END
+PlanTaskSendDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/PlanTaskSendDao.java
+END
+ParentDepartServiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/ParentDepartServiceDao.java
+END
+projectBaojingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Projects/!svn/ver/153/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/projectBaojingDao.java
+END
+PlantaskExecDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/project/system/service/dao/PlantaskExecDao.java
+END

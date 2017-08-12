@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<configuration>
+	<server>
+		<IfAddDec>1</IfAddDec>
+	</server>
+</configuration>

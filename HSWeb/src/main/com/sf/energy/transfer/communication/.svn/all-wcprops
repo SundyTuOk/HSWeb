@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication
+END
+GeneralCommunication.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication/GeneralCommunication.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication/package.html
+END
+TimeProcedureMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication/TimeProcedureMonth.java
+END
+TimeProcedureDay.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication/TimeProcedureDay.java
+END
+TimerTick.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/communication/TimerTick.java
+END

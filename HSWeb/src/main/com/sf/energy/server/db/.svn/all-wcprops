@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db
+END
+CommandModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/CommandModel.java
+END
+WaterMeterMataData.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/WaterMeterMataData.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/package.html
+END
+AmMeterMataData.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/AmMeterMataData.java
+END
+Lamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/Lamp.java
+END
+JcOrtherMenage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/JcOrtherMenage.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/Task.java
+END
+TimerToTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/TimerToTask.java
+END
+OnOffline.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/OnOffline.java
+END
+AutoUpDataSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/AutoUpDataSaver.java
+END
+MyTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/server/db/MyTask.java
+END

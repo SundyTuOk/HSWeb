@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp
+END
+TranServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/TranServer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/package.html
+END
+TranServerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/TranServerHandler.java
+END
+TranClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/TranClient.java
+END
+PropertiesConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/PropertiesConfig.java
+END
+TranClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/transfer/tftcp/TranClientHandler.java
+END

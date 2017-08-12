@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao
+END
+TestModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestModule.java
+END
+TestRoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestRoles.java
+END
+TestRolesPower.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestRolesPower.java
+END
+TestUsersArchitecture.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestUsersArchitecture.java
+END
+TestUsersRoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestUsersRoles.java
+END
+TestUsersPartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestUsersPartment.java
+END
+TestUsers.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestUsers.java
+END
+TestPower.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/3/VES_HS/web/src/test/com/sf/energy/project/right/dao/TestPower.java
+END

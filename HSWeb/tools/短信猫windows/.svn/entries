@@ -1,0 +1,74 @@
+10
+
+dir
+517
+http://192.168.7.163:8000/svn/Projects/VES_HS/web/tools/%E7%9F%AD%E4%BF%A1%E7%8C%ABwindows
+http://192.168.7.163:8000/svn/Projects
+
+
+
+2017-03-08T08:07:36.409776Z
+3
+lxp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3b450917-9947-814e-add7-5954e3b24165
+
+smslib
+dir
+
+串口32位电脑
+dir
+
+串口64位电脑
+dir
+
+串口dll路径.txt
+file
+
+
+
+
+2017-07-27T07:34:48.109000Z
+fb9cbfc1c7f7d6b6cc2a72fb4e179959
+2017-03-08T08:07:36.409776Z
+3
+lxp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+245
+
+驱动win7，win8
+dir
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp
+END
+DataManagerDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/DataManagerDaoImp.java
+END
+EnReportDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/EnReportDaoImp.java
+END
+SystemInfoDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/SystemInfoDaoImp.java
+END
+ArcSampleDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/ArcSampleDaoImp.java
+END
+EnReportDataHisDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/EnReportDataHisDaoImp.java
+END
+EnReportDataDaoImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Projects/!svn/ver/3/VES_HS/web/src/main/com/sf/energy/report/daoImp/EnReportDataDaoImp.java
+END
